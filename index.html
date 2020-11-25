@@ -1,0 +1,10 @@
+<div id="w">
+</div>
+<script language="javascript">
+var index=0;
+var word =  '祝你有诗有歌有远方，有酒有肉有姑娘';
+function type(){
+    document.getElementById("w").innerText = word.substring(0,index++);
+}
+setInterval(type, 500);
+</script>
